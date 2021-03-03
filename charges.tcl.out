@@ -1,0 +1,39 @@
+INFO) ALL
+INFO) Total charge: -3.624008968472481e-7
+INFO) Protein
+INFO) Total charge: -5.999992331489921
+INFO) Ions
+INFO) Total charge: 6.0
+INFO) Lipid
+INFO) Total charge: 1.7002224922180176e-5
+INFO) Protein including BCLs, BPHs, U10s, and FE
+INFO) Total charge: -6.000017364625819
+INFO) -------------------------
+INFO) BCL (825)
+INFO) Total charge: 0.008175024297088385
+INFO) -------------------------
+INFO) BCL (826)
+INFO) Total charge: 0.6610000017099082
+INFO) -------------------------
+INFO) BCL (827)
+INFO) Total charge: 0.3279999829828739
+INFO) -------------------------
+INFO) BCL (828)
+INFO) Total charge: -9.997794404625893e-5
+INFO) -------------------------
+INFO) BPH (829)
+INFO) Total charge: -0.00010007340461015701
+INFO) -------------------------
+INFO) BPH (830)
+INFO) Total charge: -0.9980000077048317
+INFO) -------------------------
+INFO) U10 (831)
+INFO) Total charge: 0.0005000084638595581
+INFO) -------------------------
+INFO) U10 (832)
+INFO) Total charge: 0.0005000084638595581
+INFO) -------------------------
+INFO) FE (824)
+INFO) Total charge: 0.0
+INFO) -------------------------
+INFO) -------------------------

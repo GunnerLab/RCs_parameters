@@ -1,0 +1,852 @@
+!*>>>>> CHARMM TYPE All-Hydrogen Parameter File for Proteins <<<<<<<<
+!*>>>>>>>>>>>>>>>>>>>>>>> and Nucleic Acids <<<<<<<<<<<<<<<<<<<<<<<<<
+ATOMS
+MASS    -1 C1    12.01100  !
+MASS    -1 C2    12.01100  !
+MASS    -1 CC3   12.01100  !
+MASS    -1 C4    12.01100  !
+MASS    -1 C5    12.01100  !
+MASS    -1 C6    12.01100  !
+MASS    -1 C7    12.01100  !
+MASS    -1 C8    12.01100  !
+MASS    -1 C9    12.01100  !
+MASS    -1 C10   12.01100  !
+MASS    -1 C11   12.01100   !
+MASS    -1 C12   12.01100   !
+MASS    -1 C13   12.01100   !
+MASS    -1 C14   12.01100   !
+MASS    -1 C15   12.01100   !
+MASS    -1 C16   12.01100   !
+MASS    -1 C17   12.01100   !
+MASS    -1 C18   12.01100   !
+MASS    -1 C19   12.01100   !
+MASS    -1 C20   12.01100   !
+MASS    -1 C1A   12.01100   !
+MASS    -1 C2A   12.01100   !
+MASS    -1 C3A   12.01100   !
+MASS    -1 C4A   12.01100   !
+MASS    -1 C1B   12.01100   !
+MASS    -1 C2B   12.01100   !
+MASS    -1 C3B   12.01100   !
+MASS    -1 C4B   12.01100   !
+MASS    -1 C1C   12.01100   !
+MASS    -1 C2C   12.01100   !
+MASS    -1 C3C   12.01100   !
+MASS    -1 C4C   12.01100   !
+MASS    -1 C1D   12.01100   !
+MASS    -1 C2D   12.01100   !
+MASS    -1 C3D   12.01100   !
+MASS    -1 C4D   12.01100   !
+MASS    -1 CAA   12.01100   !
+MASS    -1 CAB   12.01100   !
+MASS    -1 CAC   12.01100   !
+MASS    -1 CAD   12.01100   !
+MASS    -1 CBA   12.01100   !
+MASS    -1 CBB   12.01100   !
+MASS    -1 CBC   12.01100   !
+MASS    -1 CBD   12.01100   !
+MASS    -1 CED   12.01100   !
+MASS    -1 CGA   12.01100   !
+MASS    -1 CGD   12.01100   !
+MASS    -1 CHA   12.01100   !
+MASS    -1 CHB   12.01100   !
+MASS    -1 CHC   12.01100   !
+MASS    -1 CHD   12.01100   !
+MASS    -1 CMA   12.01100   !
+MASS    -1 CMB   12.01100   !
+MASS    -1 CMC   12.01100   !
+MASS    -1 CMD   12.01100   !
+MASS    -1 HAC    1.00800   !
+MASS    -1 HCC    1.00800   !
+MASS    -1 MGC   24.30500   !
+MASS    -1 N_A   14.01000   !
+MASS    -1 N_B   14.01000   !
+MASS    -1 N_C   14.01000   !
+MASS    -1 N_D   14.01000   !
+MASS    -1 O1A   16.00000   !
+MASS    -1 O2A   16.00000   !
+MASS    -1 O1D   16.00000   !
+MASS    -1 O2D   16.00000   !
+MASS    -1 OBB   16.00000   !
+MASS    -1 OBD   16.00000   !
+
+BONDS
+!V(bond) = Kb(b - b0)**2
+!
+!Kb: kcal/mole/A**2
+!b0: A
+!
+!atom type Kb b0
+!
+MGC   N_A    50.0       2.096
+MGC   N_B    50.0       2.025
+MGC   N_C    50.0       2.096
+MGC   N_D    50.0       2.025
+CHA   C1A   370.0       1.390
+CHA   CBD   250.0       1.525
+CHA   C4D   305.0       1.404
+CHB   C1B   350.0       1.406
+CHB   HAC   376.0       1.092
+CHB   C4A   370.0       1.393
+CHC   C4B   350.0       1.404
+CHC   HAC   376.0       1.092
+CHC   C1C   370.0       1.393
+CHD   C4C   370.0       1.393
+CHD   HAC   376.0       1.092
+CHD   C1D   350.0       1.407
+N_A   C4A   296.0       1.362
+N_A   C1A   296.0       1.362
+C1A   C2A   250.0       1.527
+C2A   C3A   250.0       1.552
+C2A   CAA   250.0       1.541
+C2A   HCC   358.0       1.090
+C3A   C4A   250.0       1.527
+C3A   CMA   250.0       1.541
+C3A   HCC   358.0       1.090
+CMA   HCC   358.0       1.090
+CAA   CBA   260.0       1.526
+CAA   HCC   358.0       1.090
+CBA   CGA   250.0       1.522
+CBA   HCC   358.0       1.090
+CGA   O2A   380.0       1.363
+CGA   O1A   700.0       1.222
+O2A   C1    358.0       1.457
+N_B   C1B   316.0       1.380
+N_B   C4B   316.0       1.375
+C1B   C2B   263.0       1.439
+C2B   C3B   340.0       1.402
+C2B   CMB   200.0       1.497
+C3B   CAB   190.0       1.479
+C3B   C4B   263.0       1.456
+CMB   HCC   358.0       1.090
+CAB   CBB   170.0       1.522
+CAB   OBB   650.0       1.229
+CBB   HCC   358.0       1.090
+N_C   C1C   296.0       1.362
+N_C   C4C   296.0       1.362
+C1C   C2C   250.0       1.527
+C2C   C3C   250.0       1.552
+C2C   CMC   250.0       1.541
+C2C   HCC   358.0       1.090
+C3C   C4C   250.0       1.527
+C3C   CAC   250.0       1.541
+C3C   HCC   358.0       1.090
+CMC   HCC   358.0       1.090
+CAC   CBC   260.0       1.526
+CAC   HCC   358.0       1.090
+CBC   HCC   358.0       1.090
+N_D   C1D   316.0       1.393
+N_D   C4D   316.0       1.348
+C1D   C2D   263.0       1.441
+C2D   CMD   200.0       1.497
+C2D   C3D   340.0       1.402
+C3D   C4D   283.0       1.421
+C3D   CAD   263.0       1.455
+CMD   HCC   358.0       1.090
+CAD   CBD   170.0       1.604
+CAD   OBD   700.0       1.226
+CBD   CGD   250.0       1.522
+CBD   HCC   358.0       1.090
+CGD   O2D   380.0       1.363
+CGD   O1D   700.0       1.222
+O2D   CED   358.0       1.457
+CED   HCC   358.0       1.090
+C1    C2    270.0       1.510
+C1    HCC   358.0       1.090
+C2    CC3   510.0       1.343
+C2    HCC   358.0       1.090
+CC3   C4    270.0       1.510
+CC3   C5    270.0       1.510
+C4    HCC   358.0       1.090
+C5    C6    260.0       1.526
+C5    HCC   358.0       1.090
+C6    C7    260.0       1.526
+C6    HCC   358.0       1.090
+C7    C8    260.0       1.526
+C7    HCC   358.0       1.090
+C8    C9    260.0       1.526
+C8    C10   260.0       1.526
+C8    HCC   358.0       1.090
+C9    HCC   358.0       1.090
+C10   C11   260.0       1.526
+C10   HCC   358.0       1.090
+C11   C12   260.0       1.526
+C11   HCC   358.0       1.090
+C12   C13   260.0       1.526
+C12   HCC   358.0       1.090
+C13   C14   260.0       1.526
+C13   C15   260.0       1.526
+C13   HCC   358.0       1.090
+C14   HCC   358.0       1.090
+C15   C16   260.0       1.526
+C15   HCC   358.0       1.090
+C16   C17   260.0       1.526
+C16   HCC   358.0       1.090
+C17   C18   260.0       1.526
+C17   HCC   358.0       1.090
+C18   C19   260.0       1.526
+C18   C20   260.0       1.526
+C18   HCC   358.0       1.090
+C19   HCC   358.0       1.090
+C20   HCC   358.0       1.090
+!
+ANGLES
+!
+!V(angle) = Ktheta(Theta - Theta0)**2
+!
+!V(Urey-Bradley) = Kub(S - S0)**2
+!
+!Ktheta: kcal/mole/rad**2
+!Theta0: degrees
+!Kub: kcal/mole/A**2 (Urey-Bradley)
+!S0: A
+!
+!atom types     Ktheta    Theta0   Kub     S0
+!
+!
+MGC  N_D  C4D  70.00    122.40
+MGC  N_D  C1D  70.00    131.90
+MGC  N_C  C4C  70.00    124.90
+MGC  N_C  C1C  70.00    124.90
+MGC  N_B  C4B  70.00    125.70
+MGC  N_B  C1B  70.00    126.40
+MGC  N_A  C1A  70.00    124.90
+MGC  N_A  C4A  70.00    124.90
+CHA  CBD  HCC  35.00    109.50
+CHA  CBD  CGD  63.00    112.50
+CHA  CBD  CAD  63.00    104.60
+CHA  C1A  N_A  70.00    121.90
+CHA  C1A  C2A  63.00    128.00
+CHB  C1B  C2B  63.00    126.50
+CHB  C1B  N_B  70.00    124.50
+CHC  C4B  C3B  63.00    125.00
+CHC  C4B  N_B  70.00    126.00
+CHD  C4C  N_C  70.00    125.50
+CHD  C4C  C3C  63.00    122.00
+CHB  C4A  N_A  70.00    125.50
+N_A  C4A  C3A  70.00    112.10
+N_A  MGC  N_D  50.00    90.00
+N_A  MGC  N_C  50.00    176.10
+N_A  MGC  N_B  50.00    90.00
+C1A  C2A  HCC  35.00    109.50
+C1A  C2A  CAA  63.00    112.10
+C1A  C2A  C3A  63.00    102.50
+C1A  CHA  C4D  63.00    125.40
+C1A  CHA  CBD  63.00    126.20
+C2A  CAA  HCC  35.00    109.50
+C2A  CAA  CBA  58.00    111.50
+C2A  C3A  HCC  35.00    109.50
+C2A  C3A  CMA  63.00    114.00
+C2A  C3A  C4A  63.00    102.50
+N_A  C1A  C2A  70.00    112.10
+C3A  CMA  HCC  35.00    109.50
+CHB  C4A  C3A  63.00    122.00
+C3A  C2A  HCC  35.00    109.50
+C3A  C2A  CAA  63.00    114.00
+C4A  C3A  HCC  35.00    109.50
+C4A  C3A  CMA  63.00    112.10
+C1A  N_A  C4A 120.00    109.70
+CMA  C3A  HCC  35.00    109.50
+CAA  CBA  HCC  35.00    109.50
+CAA  CBA  CGA  63.00    116.60
+CAA  C2A  HCC  35.00    109.50
+CBA  CGA  O1A  90.00    126.50
+CBA  CGA  O2A  70.00    111.50
+CBA  CAA  HCC  35.00    109.50
+CGA  O2A  C1   70.00    111.50
+CGA  CBA  HCC  35.00    109.50
+O2A  C1   HCC  35.00    109.50
+O2A  C1   C2   50.00    109.60
+O1A  CGA  O2A 100.00    122.00
+N_B  C4B  C3B  70.00    109.50
+N_B  C1B  C2B  70.00    109.90
+N_B  MGC  N_D  50.00    178.90
+N_B  MGC  N_C  50.00    90.00
+C1B  N_B  C4B 100.00    107.70
+C4A  CHB  C1B  63.00    125.10
+C1B  CHB  HAC  25.00    115.80
+C2B  CMB  HCC  35.00    109.50
+C2B  C3B  C4B  63.00    107.10
+C2B  C3B  CAB  63.00    128.50
+C3B  CAB  OBB  80.00    121.90
+C3B  CAB  CBB  63.00    118.00
+C1B  C2B  C3B  63.00    106.90
+C3B  C2B  CMB  63.00    129.00
+C4B  CHC  C1C  63.00    129.90
+C4B  CHC  HAC  25.00    113.40
+C1B  C2B  CMB  63.00    123.50
+CAB  CBB  HCC  35.00    109.50
+C4B  C3B  CAB  63.00    124.40
+OBB  CAB  CBB  80.00    122.40
+CHC  C1C  N_C  70.00    125.50
+N_C  C1C  C2C  70.00    112.10
+N_C  MGC  N_D  50.00    90.00
+C1C  C2C  HCC  35.00    109.50
+C1C  C2C  CMC  63.00    112.10
+C1C  C2C  C3C  63.00    102.50
+C1C  N_C  C4C 120.00    109.70
+C2C  CMC  HCC  35.00    109.50
+C2C  C3C  HCC  35.00    109.50
+C2C  C3C  CAC  63.00    114.00
+C2C  C3C  C4C  63.00    102.50
+CHC  C1C  C2C  63.00    122.00
+C3C  CAC  HCC  35.00    109.50
+C3C  CAC  CBC  58.00    111.50
+N_C  C4C  C3C  70.00    112.10
+C3C  C2C  HCC  35.00    109.50
+C3C  C2C  CMC  63.00    114.00
+C4C  C3C  HCC  35.00    109.50
+C4C  C3C  CAC  63.00    112.10
+C4C  CHD  C1D  63.00    123.30
+C4C  CHD  HAC  25.00    116.50
+CMC  C2C  HCC  35.00    109.50
+CAC  CBC  HCC  35.00    109.50
+CAC  C3C  HCC  35.00    109.50
+CBC  CAC  HCC  35.00    109.50
+CHA  C4D  N_D  70.00    133.60
+N_D  C4D  C3D  70.00    111.90
+CHD  C1D  N_D  70.00    121.80
+N_D  C1D  C2D  70.00    110.60
+C1D  C2D  C3D  63.00    105.00
+C1D  C2D  CMD  63.00    126.20
+C1D  N_D  C4D 100.00    105.70
+C2D  CMD  HCC  35.00    109.50
+CHD  C1D  C2D  63.00    128.40
+C3D  CAD  OBD  80.00    130.70
+C3D  CAD  CBD  63.00    105.40
+CHA  C4D  C3D  63.00    114.40
+C2D  C3D  C4D  63.00    108.00
+C4D  C3D  CAD  63.00    108.90
+C3D  C2D  CMD  63.00    129.00
+CAD  CBD  HCC  35.00    109.50
+CAD  CBD  CGD  63.00    111.00
+C2D  C3D  CAD  63.00    143.10
+CBD  CGD  O1D  90.00    126.50
+CBD  CGD  O2D  70.00    111.50
+OBD  CAD  CBD  80.00    124.00
+C4D  CHA  CBD  63.00    106.60
+CGD  O2D  CED  45.00    106.00
+CGD  CBD  HCC  35.00    109.50
+O2D  CED  HCC  35.00    109.50
+O1D  CGD  O2D 100.00    122.00
+C1   C2   HCC  35.00    109.50
+C1   C2   CC3  50.00    112.00
+C2   CC3  C5   50.00    125.90
+C2   CC3  C4   50.00    123.70
+C2   C1   HCC  35.00    109.50
+CC3  C5   HCC  35.00    109.50
+CC3  C5   C6   50.00    114.50
+CC3  C4   HCC  35.00    109.50
+CC3  C2   HCC  35.00    109.50
+C4   CC3  C5   50.00    116.00
+C5   C6   HCC  35.00    109.50
+C5   C6   C7   58.00    109.50
+C6   C7   HCC  35.00    109.50
+C6   C7   C8   58.00    109.50
+C6   C5   HCC  35.00    109.50
+C7   C8   HCC  35.00    109.50
+C7   C8   C10  58.00    109.50
+C7   C8   C9   58.00    109.50
+C7   C6   HCC  35.00    109.50
+C8   C10  HCC  35.00    109.50
+C8   C10  C11  58.00    109.50
+C8   C9   HCC  35.00    109.50
+C8   C7   HCC  35.00    109.50
+C9   C8   HCC  35.00    109.50
+C9   C8   C10  58.00    109.50
+C10  C11  HCC  35.00    109.50
+C10  C11  C12  58.00    109.50
+C10  C8   HCC  35.00    109.50
+C11  C12  HCC  35.00    109.50
+C11  C12  C13  58.00    109.50
+C11  C10  HCC  35.00    109.50
+C12  C13  HCC  35.00    109.50
+C12  C13  C15  58.00    109.50
+C12  C13  C14  58.00    109.50
+C12  C11  HCC  35.00    109.50
+C13  C15  HCC  35.00    109.50
+C13  C15  C16  58.00    109.50
+C13  C14  HCC  35.00    109.50
+C13  C12  HCC  35.00    109.50
+C14  C13  HCC  35.00    109.50
+C14  C13  C15  58.00    109.50
+C15  C16  HCC  35.00    109.50
+C15  C16  C17  58.00    109.50
+C15  C13  HCC  35.00    109.50
+C16  C17  HCC  35.00    109.50
+C16  C17  C18  58.00    109.50
+C16  C15  HCC  35.00    109.50
+C17  C18  HCC  35.00    109.50
+C17  C18  C20  58.00    109.50
+C17  C18  C19  58.00    109.50
+C17  C16  HCC  35.00    109.50
+C18  C20  HCC  35.00    109.50
+C18  C19  HCC  35.00    109.50
+C18  C17  HCC  35.00    109.50
+C19  C18  HCC  35.00    109.50
+C19  C18  C20  58.00    109.50
+C20  C18  HCC  35.00    109.50
+C4A  CHB  HAC  25.00    116.50
+C1C  CHC  HAC  25.00    116.50
+C1D  CHD  HAC  25.00    116.60
+HCC  CMA  HCC  35.00    109.50
+HCC  CAA  HCC  35.00    109.50
+HCC  CBA  HCC  35.00    109.50
+HCC  CMB  HCC  35.00    109.50
+HCC  CBB  HCC  35.00    109.50
+HCC  CMC  HCC  35.00    109.50
+HCC  CAC  HCC  35.00    109.50
+HCC  CBC  HCC  35.00    109.50
+HCC  CMD  HCC  35.00    109.50
+HCC  CED  HCC  35.00    109.50
+HCC  C1   HCC  35.00    109.50
+HCC  C4   HCC  35.00    109.50
+HCC  C5   HCC  35.00    109.50
+HCC  C6   HCC  35.00    109.50
+HCC  C7   HCC  35.00    109.50
+HCC  C9   HCC  35.00    109.50
+HCC  C10  HCC  35.00    109.50
+HCC  C11  HCC  35.00    109.50
+HCC  C12  HCC  35.00    109.50
+HCC  C14  HCC  35.00    109.50
+HCC  C15  HCC  35.00    109.50
+HCC  C16  HCC  35.00    109.50
+HCC  C17  HCC  35.00    109.50
+HCC  C19  HCC  35.00    109.50
+HCC  C20  HCC  35.00    109.50
+!
+DIHEDRALS
+!
+!V(dihedral) = Kchi(1 + cos(n(chi) - delta))
+!
+!Kchi: kcal/mole
+!n: multiplicity
+!delta: degrees
+!
+!atom types             Kchi    n   delta
+!
+MGC  N_D  C1D  C2D      5.0000  2   180.00
+MGC  N_D  C1D  CHD      5.0000  2   180.00
+MGC  N_D  C4D  C3D      5.0000  2   180.00
+MGC  N_D  C4D  CHA      5.0000  2   180.00
+MGC  N_C  C1C  C2C      5.0000  2   180.00
+MGC  N_C  C1C  CHC      5.0000  2   180.00
+MGC  N_C  C4C  CHD      5.0000  2   180.00
+MGC  N_C  C4C  C3C      5.0000  2   180.00
+MGC  N_B  C1B  CHB      5.0000  2   180.00
+MGC  N_B  C1B  C2B      5.0000  2   180.00
+MGC  N_B  C4B  CHC      5.0000  2   180.00
+MGC  N_B  C4B  C3B      5.0000  2   180.00
+MGC  N_A  C4A  C3A      5.0000  2   180.00
+MGC  N_A  C4A  CHB      5.0000  2   180.00
+MGC  N_A  C1A  CHA      5.0000  2   180.00
+MGC  N_A  C1A  C2A      5.0000  2   180.00
+C3D  CAD  CBD  CHA      3.1500  2   180.00
+OBD  CAD  CBD  CHA      3.1500  2   180.00
+CHA  CBD  CGD  O2D      0.0000  3     0.00
+CHA  CBD  CGD  O1D      0.0000  3     0.00
+C1D  N_D  C4D  CHA      5.0000  2   180.00
+CAD  C3D  C4D  CHA      7.0000  2   180.00
+C2D  C3D  C4D  CHA      7.0000  2   180.00
+CHA  C1A  C2A  C3A      3.1500  2   180.00
+CHA  C1A  C2A  CAA      0.0000  2     0.00
+CHA  C1A  C2A  HCC      0.0000  2     0.00
+C4A  N_A  C1A  CHA      5.0000  2   180.00
+C4B  N_B  C1B  CHB      5.0000  2   180.00
+CHB  C1B  C2B  C3B      7.0000  2   180.00
+CHB  C1B  C2B  CMB      7.0000  2   180.00
+C1A  N_A  C4A  CHB      5.0000  2   180.00
+C2A  C3A  C4A  CHB      3.1500  2   180.00
+CMA  C3A  C4A  CHB      0.0000  2     0.00
+HCC  C3A  C4A  CHB      0.0000  2     0.00
+C4C  N_C  C1C  CHC      5.0000  2   180.00
+CHC  C1C  C2C  C3C      3.1500  2   180.00
+CHC  C1C  C2C  CMC      0.0000  2     0.00
+CHC  C1C  C2C  HCC      0.0000  2     0.00
+C1B  N_B  C4B  CHC      5.0000  2   180.00
+C2B  C3B  C4B  CHC      7.0000  2   180.00
+CAB  C3B  C4B  CHC      7.0000  2   180.00
+C4D  N_D  C1D  CHD      5.0000  2   180.00
+CHD  C1D  C2D  CMD      7.0000  2   180.00
+CHD  C1D  C2D  C3D      7.0000  2   180.00
+C2C  C3C  C4C  CHD      3.1500  2   180.00
+CAC  C3C  C4C  CHD      0.0000  2     0.00
+HCC  C3C  C4C  CHD      0.0000  2     0.00
+C1C  N_C  C4C  CHD      5.0000  2   180.00
+C2A  C3A  C4A  N_A      3.1500  2   180.00
+CMA  C3A  C4A  N_A      0.0000  2     0.00
+HCC  C3A  C4A  N_A      0.0000  2     0.00
+C1B  CHB  C4A  N_A      7.0000  2   180.00
+HAC  CHB  C4A  N_A      7.0000  2   180.00
+CBD  CHA  C1A  N_A      7.0000  2   180.00
+C4D  CHA  C1A  N_A      7.0000  2   180.00
+N_A  C1A  C2A  C3A      3.1500  2   180.00
+N_A  C1A  C2A  CAA      0.0000  2     0.00
+N_A  C1A  C2A  HCC      0.0000  2     0.00
+N_A   MGC N_B  C1B      0.0000  2     0.00
+N_A   MGC N_B  C4B      0.0000  2     0.00
+N_A   MGC N_C  C1C      0.0000  2     0.00
+N_A   MGC N_C  C4C      0.0000  2     0.00
+N_A   MGC N_D  C1D      0.0000  2     0.00
+N_A   MGC N_D  C4D      0.0000  2     0.00
+C1A   C2A C3A  C4A      0.0000  3     0.00
+C1A   C2A C3A  CMA      0.0000  3     0.00
+C1A   C2A C3A  HCC      0.0000  3     0.00
+C1A   C2A CAA  CBA     -0.3120  3     0.00
+C1A   C2A CAA  HCC     -0.3120  3     0.00
+N_B   MGC N_A  C1A      0.0000  2     0.00
+N_C   MGC N_A  C1A      0.0000  2     0.00
+N_D   MGC N_A  C1A      0.0000  2     0.00
+C1A   N_A C4A  C3A      5.0000  2   180.00
+C1A   CHA CBD  CAD      3.1500  2   180.00
+C1A   CHA CBD  CGD      0.0000  2     0.00
+C1A   CHA CBD  HCC      0.0000  2     0.00
+C1A   CHA C4D  N_D      7.0000  2   180.00
+C1A   CHA C4D  C3D      7.0000  2   180.00
+C2A   CAA CBA  CGA     -0.3120  3     0.00
+C2A   CAA CBA  HCC     -0.3120  3     0.00
+C2A   C3A CMA  HCC     -0.3120  3     0.00
+CBD   CHA C1A  C2A      7.0000  2   180.00
+C4D   CHA C1A  C2A      7.0000  2   180.00
+C4A   N_A C1A  C2A      5.0000  2   180.00
+C1B   CHB C4A  C3A      7.0000  2   180.00
+HAC   CHB C4A  C3A      7.0000  2   180.00
+C3A   C2A CAA  CBA     -0.3120  3     0.00
+C3A   C2A CAA  HCC     -0.3120  3     0.00
+CAA   C2A C3A  C4A      0.0000  3     0.00
+HCC   C2A C3A  C4A      0.0000  3     0.00
+C4A   C3A CMA  HCC     -0.3120  3     0.00
+N_B   MGC N_A  C4A      0.0000  2     0.00
+N_C   MGC N_A  C4A      0.0000  2     0.00
+N_D   MGC N_A  C4A      0.0000  2     0.00
+C4A   CHB C1B  N_B      7.0000  2   180.00
+C4A   CHB C1B  C2B      7.0000  2   180.00
+CAA   C2A C3A  CMA      0.0000  3     0.00
+HCC   C2A C3A  CMA      0.0000  3     0.00
+CAA   CBA CGA  O2A     -0.0600  3     0.00
+CAA   CBA CGA  O1A      0.0600  3   180.00
+CAA   C2A C3A  HCC      0.0000  3     0.00
+CBA   CGA O2A  C1       3.0000  2   180.00
+HCC   C2A CAA  CBA     -0.3120  3     0.00
+CGA   O2A C1   C2      -0.3600  3     0.00
+CGA   O2A C1   HCC     -0.3600  3     0.00
+HCC   CAA CBA  CGA     -0.3120  3     0.00
+HCC   CBA CGA  O1A      0.0600  3   180.00
+O1A   CGA O2A  C1      12.0000  2   180.00
+O2A   C1  C2   CC3      0.6660  3   180.00
+O2A   C1  C2   HCC      0.2080  3     0.00
+HCC   CBA CGA  O2A     -0.0600  3     0.00
+HAC   CHC C4B  N_B      7.0000  2   180.00
+C1C   CHC C4B  N_B      7.0000  2   180.00
+C2B   C3B C4B  N_B      7.0000  2   180.00
+CAB   C3B C4B  N_B      7.0000  2   180.00
+HAC   CHB C1B  N_B      7.0000  2   180.00
+N_B   C1B C2B  C3B      7.0000  2   180.00
+N_B   C1B C2B  CMB      7.0000  2   180.00
+N_B   MGC N_C  C1C      0.0000  2     0.00
+N_B   MGC N_C  C4C      0.0000  2     0.00
+N_B   MGC N_D  C1D      0.0000  2     0.00
+N_B   MGC N_D  C4D      0.0000  2     0.00
+C1B   C2B C3B  CAB     10.0000  2   180.00
+C1B   C2B C3B  C4B     10.0000  2   180.00
+C1B   C2B CMB  HCC      0.0000  2     0.00
+N_C   MGC N_B  C1B      0.0000  2     0.00
+N_D   MGC N_B  C1B      0.0000  2     0.00
+C1B   N_B C4B  C3B      5.0000  2   180.00
+C2B   C3B CAB  CBB     10.0000  2   180.00
+C2B   C3B CAB  OBB     10.0000  2   180.00
+HAC   CHB C1B  C2B      7.0000  2   180.00
+C4B   N_B C1B  C2B      5.0000  2   180.00
+C3B   CAB CBB  HCC      0.0000  2     0.00
+HAC   CHC C4B  C3B      7.0000  2   180.00
+C1C   CHC C4B  C3B      7.0000  2   180.00
+C3B   C2B CMB  HCC      0.0000  2     0.00
+CMB   C2B C3B  C4B     10.0000  2   180.00
+C4B   C3B CAB  CBB     10.0000  2   180.00
+C4B   C3B CAB  OBB     10.0000  2   180.00
+N_C   MGC N_B  C4B      0.0000  2     0.00
+N_D   MGC N_B  C4B      0.0000  2     0.00
+C4B   CHC C1C  N_C      7.0000  2   180.00
+C4B   CHC C1C  C2C      7.0000  2   180.00
+CMB   C2B C3B  CAB     10.0000  2   180.00
+OBB   CAB CBB  HCC      0.0000  2     0.00
+HAC   CHD C4C  N_C      7.0000  2   180.00
+C1D   CHD C4C  N_C      7.0000  2   180.00
+C2C   C3C C4C  N_C      3.1500  2   180.00
+CAC   C3C C4C  N_C      0.0000  2     0.00
+HCC   C3C C4C  N_C      0.0000  2     0.00
+N_C   C1C C2C  C3C      3.1500  2   180.00
+N_C   C1C C2C  CMC      0.0000  2     0.00
+N_C   C1C C2C  HCC      0.0000  2     0.00
+HAC   CHC C1C  N_C      7.0000  2   180.00
+N_C   MGC N_D  C1D      0.0000  2     0.00
+N_C   MGC N_D  C4D      0.0000  2     0.00
+C1C   C2C C3C  C4C      0.0000  3     0.00
+C1C   C2C C3C  CAC      0.0000  3     0.00
+C1C   C2C C3C  HCC      0.0000  3     0.00
+C1C   C2C CMC  HCC     -0.3120  3     0.00
+N_D   MGC N_C  C1C      0.0000  2     0.00
+C1C   N_C C4C  C3C      5.0000  2   180.00
+C2C   C3C CAC  CBC     -0.3120  3     0.00
+C2C   C3C CAC  HCC     -0.3120  3     0.00
+C4C   N_C C1C  C2C      5.0000  2   180.00
+HAC   CHC C1C  C2C      7.0000  2   180.00
+C3C   CAC CBC  HCC     -0.3120  3     0.00
+HAC   CHD C4C  C3C      7.0000  2   180.00
+C1D   CHD C4C  C3C      7.0000  2   180.00
+C3C   C2C CMC  HCC     -0.3120  3     0.00
+CMC   C2C C3C  C4C      0.0000  3     0.00
+HCC   C2C C3C  C4C      0.0000  3     0.00
+C4C   C3C CAC  CBC     -0.3120  3     0.00
+C4C   C3C CAC  HCC     -0.3120  3     0.00
+N_D   MGC N_C  C4C      0.0000  2     0.00
+C4C   CHD C1D  N_D      7.0000  2   180.00
+C4C   CHD C1D  C2D      7.0000  2   180.00
+CMC   C2C C3C  CAC      0.0000  3     0.00
+CMC   C2C C3C  HCC      0.0000  3     0.00
+HCC   C2C C3C  CAC      0.0000  3     0.00
+HCC   C3C CAC  CBC     -0.3120  3     0.00
+CAD   C3D C4D  N_D      7.0000  2   180.00
+C2D   C3D C4D  N_D      7.0000  2   180.00
+CBD   CHA C4D  N_D      7.0000  2   180.00
+N_D   C1D C2D  CMD      7.0000  2   180.00
+N_D   C1D C2D  C3D      7.0000  2   180.00
+HAC   CHD C1D  N_D      7.0000  2   180.00
+C1D   C2D CMD  HCC      0.0000  2     0.00
+C1D   C2D C3D  C4D     10.0000  2   180.00
+C1D   C2D C3D  CAD     10.0000  2   180.00
+C1D   N_D C4D  C3D      5.0000  2   180.00
+C2D   C3D CAD  CBD     10.0000  2   180.00
+C2D   C3D CAD  OBD     10.0000  2   180.00
+C4D   N_D C1D  C2D      5.0000  2   180.00
+HAC   CHD C1D  C2D      7.0000  2   180.00
+C3D   CAD CBD  CGD      0.0000  2     0.00
+C3D   CAD CBD  HCC      0.0000  2     0.00
+CBD   CHA C4D  C3D      7.0000  2   180.00
+C3D   C2D CMD  HCC      0.0000  2     0.00
+C4D   C3D CAD  CBD     10.0000  2   180.00
+C4D   C3D CAD  OBD     10.0000  2   180.00
+CMD   C2D C3D  C4D     10.0000  2   180.00
+C4D   CHA CBD  CAD      3.1500  2   180.00
+C4D   CHA CBD  CGD      0.0000  2     0.00
+C4D   CHA CBD  HCC      0.0000  2     0.00
+CMD   C2D C3D  CAD     10.0000  2   180.00
+CAD   CBD CGD  O2D      0.0000  3     0.00
+CAD   CBD CGD  O1D      0.0000  3     0.00
+OBD   CAD CBD  CGD      0.0000  2     0.00
+OBD   CAD CBD  HCC      0.0000  2     0.00
+CBD   CGD O2D  CED      3.0000  2   180.00
+CGD   O2D CED  HCC     -0.3600  3     0.00
+HCC   CBD CGD  O1D      0.0000  3     0.00
+O1D   CGD O2D  CED     12.0000  2   180.00
+HCC   CBD CGD  O2D      0.0000  3     0.00
+C1    C2  CC3  C4      10.4000  2   180.00
+C1    C2  CC3  C5      10.4000  2   180.00
+C2    CC3 C4   HCC      0.6660  3   180.00
+C2    CC3 C5   C6       0.6660  3   180.00
+C2    CC3 C5   HCC      0.6660  3   180.00
+CC3   C5  C6   C7      -0.3120  3     0.00
+CC3   C5  C6   HCC     -0.3120  3     0.00
+HCC   C1  C2  CC3       0.6660  3   180.00
+HCC    C2  CC3  C4      10.4000  2   180.00
+C4    CC3 C5   C6       0.0400  3     0.00
+C4    CC3 C5   HCC      0.0400  3     0.00
+C5    C6  C7   C8      -0.3120  3     0.00
+C5    C6  C7   HCC     -0.3120  3     0.00
+HCC   C2  CC3  C5      10.4000  2   180.00
+C5    CC3 C4   HCC      0.0400  3     0.00
+C6    C7  C8   C9      -0.3120  3     0.00
+C6    C7  C8   C10     -0.3120  3     0.00
+C6    C7  C8   HCC     -0.3120  3     0.00
+C7    C8  C9   HCC     -0.3120  3     0.00
+C7    C8  C10  C11     -0.3120  3     0.00
+C7    C8  C10  HCC     -0.3120  3     0.00
+HCC   C5  C6   C7      -0.3120  3     0.00
+C8    C10 C11  C12     -0.3120  3     0.00
+C8    C10 C11  HCC     -0.3120  3     0.00
+HCC   C6  C7   C8      -0.3120  3     0.00
+HCC   C7  C8   C9      -0.3120  3     0.00
+C9    C8  C10  C11     -0.3120  3     0.00
+C9    C8  C10  HCC     -0.3120  3     0.00
+C10   C11 C12  C13     -0.3120  3     0.00
+C10   C11 C12  HCC     -0.3120  3     0.00
+HCC   C7  C8   C10     -0.3120  3     0.00
+C10   C8  C9   HCC     -0.3120  3     0.00
+C11   C12 C13  C14     -0.3120  3     0.00
+C11   C12 C13  C15     -0.3120  3     0.00
+C11   C12 C13  HCC     -0.3120  3     0.00
+HCC   C8  C10  C11     -0.3120  3     0.00
+C12   C13 C14  HCC     -0.3120  3     0.00
+C12   C13 C15  C16     -0.3120  3     0.00
+C12   C13 C15  HCC     -0.3120  3     0.00
+HCC   C10 C11  C12     -0.3120  3     0.00
+C13   C15 C16  C17     -0.3120  3     0.00
+C13   C15 C16  HCC     -0.3120  3     0.00
+HCC   C11 C12  C13     -0.3120  3     0.00
+HCC   C12 C13  C14     -0.3120  3     0.00
+C14   C13 C15  C16     -0.3120  3     0.00
+C14   C13 C15  HCC     -0.3120  3     0.00
+C15   C16 C17  C18     -0.3120  3     0.00
+C15   C16 C17  HCC     -0.3120  3     0.00
+HCC   C12 C13  C15     -0.3120  3     0.00
+C15   C13 C14  HCC     -0.3120  3     0.00
+C16   C17 C18  C19     -0.3120  3     0.00
+C16   C17 C18  C20     -0.3120  3     0.00
+C16   C17 C18  HCC     -0.3120  3     0.00
+HCC   C13 C15  C16     -0.3120  3     0.00
+C17   C18 C19  HCC     -0.3120  3     0.00
+C17   C18 C20  HCC     -0.3120  3     0.00
+HCC   C15 C16  C17     -0.3120  3     0.00
+HCC   C16 C17  C18     -0.3120  3     0.00
+HCC   C17 C18  C19     -0.3120  3     0.00
+C19   C18 C20  HCC     -0.3120  3     0.00
+HCC   C17 C18  C20     -0.3120  3     0.00
+C20   C18 C19  HCC     -0.3120  3     0.00
+HCC   C2A C3A  HCC      0.0000  3     0.00
+HCC   C2A CAA  HCC     -0.3120  3     0.00
+HCC   C3A CMA  HCC     -0.3120  3     0.00
+HCC   CAA CBA  HCC     -0.3120  3     0.00
+HCC   C2C C3C  HCC      0.0000  3     0.00
+HCC   C2C CMC  HCC     -0.3120  3     0.00
+HCC   C3C CAC  HCC     -0.3120  3     0.00
+HCC   CAC CBC  HCC     -0.3120  3     0.00
+HCC   C1  C2   HCC      0.2080  3     0.00
+HCC   C5  C6   HCC     -0.3120  3     0.00
+HCC   C6  C7   HCC     -0.3120  3     0.00
+HCC   C7  C8   HCC     -0.3120  3     0.00
+HCC   C8  C9   HCC     -0.3120  3     0.00
+HCC   C8  C10  HCC     -0.3120  3     0.00
+HCC   C10 C11  HCC     -0.3120  3     0.00
+HCC   C11 C12  HCC     -0.3120  3     0.00
+HCC   C12 C13  HCC     -0.3120  3     0.00
+HCC   C13 C14  HCC     -0.3120  3     0.00
+HCC   C13 C15  HCC     -0.3120  3     0.00
+HCC   C15 C16  HCC     -0.3120  3     0.00
+HCC   C16 C17  HCC     -0.3120  3     0.00
+HCC   C17 C18  HCC     -0.3120  3     0.00
+HCC   C18 C19  HCC     -0.3120  3     0.00
+HCC   C18 C20  HCC     -0.3120  3     0.00
+
+IMPROPER
+!
+!V(improper) = Kpsi(psi - psi0)**2
+!
+!Kpsi: kcal/mole/rad**2
+!psi0: degrees
+!note that the second column of numbers (0) is ignored
+!
+!atom types           Kpsi                   psi0
+!
+MGC  N_B  N_C  N_D   750.0            0    -35.000 ! Nobs =    1 ... Value = -15.456
+CHA  C1A  C4D  CBD   750.0            0      0.000 ! Nobs =    1 ... Value = 6.732
+C1A  CHA  N_A  C2A   750.0            0      0.000 ! Nobs =    1 ... Value = 2.197
+C2A  C1A  C3A  CAA   750.0            0     35.000 ! Nobs =    1 ... Value = 40.639
+C3A  C2A  C4A  CMA   750.0            0    -35.000 ! Nobs =    1 ... Value = -42.594
+C4A  CHB  N_A  C3A   750.0            0      0.000 ! Nobs =    1 ... Value = 1.553
+CGA  CBA  O1A  O2A   750.0            0      0.000 ! Nobs =    1 ... Value = -0.324
+N_B  MGC  C1B  C4B   750.0            0      0.000 ! Nobs =    1 ... Value = 2.567
+C1B  CHB  N_B  C2B   750.0            0      0.000 ! Nobs =    1 ... Value = -0.107
+C2B  C1B  C3B  CMB   750.0            0      0.000 ! Nobs =    1 ... Value = 1.376
+C3B  C2B  C4B  CAB   750.0            0      0.000 ! Nobs =    1 ... Value = -0.273
+C4B  CHC  N_B  C3B   750.0            0      0.000 ! Nobs =    1 ... Value = 3.507
+CAB  C3B  OBB  CBB   750.0            0      0.000 ! Nobs =    1 ... Value = 1.261
+N_C  MGC  C1C  C4C   750.0            0      0.000 ! Nobs =    1 ... Value = 11.407
+C1C  CHC  N_C  C2C   750.0            0      0.000 ! Nobs =    1 ... Value = 0.385
+C2C  C1C  C3C  CMC   750.0            0    -35.000 ! Nobs =    1 ... Value = -36.960
+C3C  C2C  C4C  CAC   750.0            0     35.000 ! Nobs =    1 ... Value = 34.699
+C4C  CHD  N_C  C3C   750.0            0      0.000 ! Nobs =    1 ... Value = 0.468
+N_D  MGC  C1D  C4D   750.0            0     35.000 ! Nobs =    1 ... Value = 16.324
+C1D  CHD  N_D  C2D   750.0            0      0.000 ! Nobs =    1 ... Value = 0.017
+C2D  C1D  C3D  CMD   750.0            0      0.000 ! Nobs =    1 ... Value = -0.724
+C3D  C2D  C4D  CAD   750.0            0      0.000 ! Nobs =    1 ... Value = -1.352
+C4D  CHA  N_D  C3D   750.0            0      0.000 ! Nobs =    1 ... Value = -2.868
+CAD  C3D  OBD  CBD   750.0            0      0.000 ! Nobs =    1 ... Value = -5.412
+CBD  CHA  CAD  CGD   750.0            0     35.000 ! Nobs =    1 ... Value = 40.754
+CGD  CBD  O1D  O2D   750.0            0      0.000 ! Nobs =    1 ... Value = 11.498
+CC3  C2   C4   C5    750.0            0      0.000 ! Nobs =    1 ... Value = -1.728
+C8   C7   C9   C10   750.0            0    -35.000 ! Nobs =    1 ... Value = -32.312
+C13  C12  C14  C15   750.0            0    -35.000 ! Nobs =    1 ... Value = -28.588
+C18  C17  C19  C20   750.0            0    -35.000 ! Nobs =    1 ... Value = -34.568
+
+
+
+NONBONDED nbxmod  5 atom cdiel shift vatom vdistance vswitch -
+cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14fac 1.0 wmin 1.5 
+!
+!V(Lennard-Jones) = Eps,i,j[(Rmin,i,j/ri,j)**12 - 2(Rmin,i,j/ri,j)**6]
+!
+!epsilon: kcal/mole, Eps,i,j = sqrt(eps,i * eps,j)
+!Rmin/2: A, Rmin,i,j = Rmin/2,i + Rmin/2,j
+!
+!atom  ignored    epsilon      Rmin/2   ignored   eps,1-4       Rmin/2,1-4
+!
+C1        0.0        -0.1094      1.908   
+C10       0.0 	     -0.1094      1.908   
+C11       0.0 	     -0.1094      1.908   
+C12       0.0 	     -0.1094      1.908   
+C13       0.0 	     -0.1094      1.908   
+C14       0.0 	     -0.1094      1.908   
+C15       0.0 	     -0.1094      1.908   
+C16       0.0        -0.1094      1.908   
+C17       0.0 	     -0.1094      1.908   
+C18       0.0	     -0.1094      1.908   
+C19       0.0 	     -0.1094      1.908   
+C1A       0.0 	     -0.0860      1.908   
+C1B       0.0 	     -0.0860      1.908   
+C1C       0.0 	     -0.0860      1.908   
+C1D       0.0  	     -0.0860      1.908   
+C2        0.0 	     -0.0860      1.908   
+C20       0.0 	     -0.1094      1.908   
+C2A       0.0 	     -0.1094      1.908   
+C2B       0.0 	     -0.0860      1.908   
+C2C       0.0 	     -0.1094      1.908   
+C2D       0.0 	     -0.0860      1.908   
+CC3       0.0  	     -0.0860      1.908   
+C3A       0.0 	     -0.1094      1.908   
+C3B       0.0 	     -0.0860      1.908   
+C3C       0.0  	     -0.1094      1.908   
+C3D       0.0 	     -0.0860      1.908   
+C4        0.0 	     -0.1094      1.908   
+C4A       0.0 	     -0.0860      1.908   
+C4B       0.0	     -0.0860      1.908   
+C4C       0.0 	     -0.0860      1.908   
+C4D       0.0 	     -0.0860      1.908   
+C5        0.0	     -0.1094      1.908   
+C6        0.0	     -0.1094      1.908   
+C7        0.0	     -0.1094      1.908   
+C8        0.0	     -0.1094      1.908   
+C9        0.0	     -0.1094      1.908   
+CAA       0.0	     -0.1094      1.908   
+CAB       0.0	     -0.0860      1.908   
+CAC       0.0	     -0.1094      1.908   
+CAD       0.0	     -0.0860      1.908   
+CBA       0.0	     -0.1094      1.908   
+CBB       0.0	     -0.1094      1.908   
+CBC  	  0.0	     -0.1094      1.908   
+CBD  	  0.0	     -0.1094      1.908   
+CED  	  0.0	     -0.1094      1.908   
+CGA 	  0.0	     -0.0860      1.908   
+CGD  	  0.0	     -0.0860      1.908   
+CHA 	  0.0 	     -0.0860      1.908   
+CHB 	  0.0	     -0.0860      1.908   
+CHC 	  0.0	     -0.0860      1.908   
+CHD  	  0.0 	     -0.0860      1.908   
+CMA 	  0.0 	     -0.1094      1.908   
+CMB 	  0.0	     -0.1094      1.908   
+CMC 	  0.0	     -0.1094      1.908   
+CMD 	  0.0	     -0.1094      1.908   
+HAC 	  0.0	     -0.0150      1.459 
+HCC 	  0.0	     -0.0160      1.487
+MGC 	  0.0	     -0.2500      0.650
+N_A 	  0.0	     -0.1700      1.824
+N_B 	  0.0	     -0.1700      1.824
+N_C 	  0.0	     -0.1700      1.824
+N_D 	  0.0	     -0.1700      1.824
+O1A 	  0.0	     -0.2100      1.6612
+O1D 	  0.0	     -0.2100      1.6612
+O2A 	  0.0	     -0.1700      1.6637
+O2D 	  0.0	     -0.1700      1.6637
+OBB 	  0.0	     -0.2100      1.6612
+OBD 	  0.0	     -0.2100      1.6612
+
+END

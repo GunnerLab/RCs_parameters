@@ -1,0 +1,11 @@
+
+vmd -dispdev text -eofexit < get.charges.tcl | grep "INFO)" > charges.tcl.out
+
+grep "BCL" rc-memb.psf | grep " 825 " | awk '{ sum+=$7 } END {print sum}'
+grep "BCL" rc-memb.psf | grep " 826 " | awk '{ sum+=$7 } END {print sum}'
+grep "BCL" rc-memb.psf | grep " 827 " | awk '{ sum+=$7 } END {print sum}'
+grep "BCL" rc-memb.psf | grep " 828 " | awk '{ sum+=$7 } END {print sum}'
+grep "BPH" rc-memb.psf | grep " 829 " | awk '{ sum+=$7 } END {print sum}'
+grep "BPHM" rc-memb.psf | grep " 830 " | awk '{ sum+=$7 } END {print sum}'
+grep "U10" rc-memb.psf | grep " 831 " | awk '{ sum+=$7 } END {print sum}'
+grep "U10" rc-memb.psf | grep " 832 " | awk '{ sum+=$7 } END {print sum}'
